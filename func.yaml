@@ -1,0 +1,10 @@
+specVersion: 0.35.0
+name: test-on-cluster-build
+runtime: node
+registry: docker.io/mlazarevska
+image: docker.io/mlazarevska/test-on-cluster-build:latest
+created: 2023-05-11T18:16:33.043941+02:00
+build: git
+git:
+  url: https://github.com/tekton-test-project/on-cluster-build.git
+  revision: main
